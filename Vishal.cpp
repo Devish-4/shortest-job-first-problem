@@ -76,17 +76,6 @@ int main()
 		}
 	}
 	
-	for(i=1;i<=n;i++)
-	{
-		if(wt[i]==-1)
-		cout<<-1<<' '<<-1<<endl;
-		else
-		{
-			cout<<wt[i]<<' '<<tt[i]<<endl;
-			avgW+=wt[i];avgT+=tt[i];
-		}
-		
-	}
-	cout<<(avgW*1.0)/(n-k)<<' '<<(avgT*1.0/(n-k))<<endl;
+
 	return 0;
 }
